@@ -20,7 +20,7 @@ const dotenv_1 = __importDefault(require("dotenv"));
 const express_1 = __importDefault(require("express"));
 class App {
     constructor() {
-        this.port = process.env.PORT;
+        this.port = process.env.PORT || "80";
         dotenv_1.default.config();
         this.app = (0, express_1.default)();
         this.middlewares();
