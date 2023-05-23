@@ -8,7 +8,7 @@ import express, {Application} from 'express';
 
 export class App{
     public app: Application;
-    private port:any = process.env.PORT || "80";
+    private port:any = process.env.PORT;
     constructor(){
         dotenv.config();
         this.app = express();
