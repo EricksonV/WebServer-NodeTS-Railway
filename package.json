@@ -5,7 +5,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/domain/frameworks-drivers/Index.ts --exect -ts-node",
-    "build": "tsc",
     "start": "node dist/domain/frameworks-drivers/Index.js"
   },
   "keywords": [],
